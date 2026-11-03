@@ -29,6 +29,7 @@ Everything runs Debian 13 ARM on VirtualBox 7.2. VirtualBox on Apple Silicon onl
 
 ## Secrets
 
-Lab passwords have been replaced with placeholders (`CHANGE_ME`, `CHANGE_ME_ADMIN`, `CHANGE_ME_DB`). Replace them before any real use.
+Lab passwords have been replaced with placeholders
+
 
 Built as a school project (Efrei).
