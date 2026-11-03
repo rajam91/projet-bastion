@@ -17,17 +17,14 @@ Everything runs Debian 13 ARM on VirtualBox 7.2. VirtualBox on Apple Silicon onl
 
 - Bastion installation (Guacamole via Docker, official arm64 images)
 - ADMIN / User / Dev accounts (Samba groups, Guacamole permissions)
-- SSH access (key authentication) and RDP access
-- TOTP multi-factor authentication
-- Session recording (playback from the history page)
-- LDAP authentication over LDAPS (636) against the domain controller
+- SSH access and RDP access
+- Multi-factor authentication
+- Session recording 
+- LDAP authentication over LDAPS 
 
 ## Contents
 
-- `sources/preseed.cfg`: fully unattended Debian install (works around a VirtualBox ARM keyboard bug)
-- `sources/guac_setup.py`, `sources/guac_perms.py`: create connections and permissions through the Guacamole REST API
-- `scripts/bastion-demo.sh`: starts the VMs and waits until Guacamole responds
-- `scripts/bastion-totp.sh`: computes the current MFA code for a test user
+- `scripts/demo.sh`: starts the VMs and waits until Guacamole responds
 - `docs/captures/`: screenshots of the demo
 
 ## Secrets
